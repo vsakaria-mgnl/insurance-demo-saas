@@ -1,0 +1,7 @@
+label: Standard Page (insurance-demo)
+form:
+    properties:
+        - name: title
+          label: Title
+          $type: textField
+          i18n: true

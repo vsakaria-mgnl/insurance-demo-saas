@@ -1,0 +1,14 @@
+baseUrl: http://localhost:3001
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+dialog: insurance-demo:pages/StandardPage/StandardPage
+renderType: spa
+routeTemplate: '/{language}{{@path}}'
+title: Standard Page
+areas:
+    main:
+        title: Standard Page Main Area
+        availableComponents:
+            Headline:
+                id: insurance-demo:components/Headline/Headline
+            TextAndImage:
+                id: insurance-demo:components/TextAndImage/TextAndImage
