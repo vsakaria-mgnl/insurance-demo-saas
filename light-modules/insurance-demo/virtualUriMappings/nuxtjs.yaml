@@ -1,3 +1,0 @@
-class: info.magnolia.virtualuri.mapping.RegexpVirtualUriMapping
-fromUri: ^/_next/(.*) 
-toUri: redirect:http://localhost:3000/_next/$1

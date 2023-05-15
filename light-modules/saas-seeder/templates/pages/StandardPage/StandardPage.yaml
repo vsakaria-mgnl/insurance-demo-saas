@@ -1,0 +1,6 @@
+baseUrl: http://localhost:3000
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+dialog: saas-seeder:pages/StandardPage/StandardPage
+renderType: spa
+routeTemplate: '/{{@path}}'
+title: Standard Page

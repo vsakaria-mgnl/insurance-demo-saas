@@ -1,4 +1,0 @@
-renderType: spa
-class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
-dialog: insurance-demo:components/TextAndImage/TextAndImage
-title: Text and Image
