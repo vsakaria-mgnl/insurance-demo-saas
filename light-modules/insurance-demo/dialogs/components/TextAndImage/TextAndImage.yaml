@@ -1,8 +1,0 @@
-label: Text And Image
-form:
-    properties:
-        text:
-            $type: richTextField
-            i18n: true
-        image:
-            $type: damLinkField
