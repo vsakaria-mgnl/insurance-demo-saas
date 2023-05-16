@@ -1,0 +1,34 @@
+label: Section
+form:
+  $type: tabbedForm
+  tabs:
+    firstTab:
+      label: Main
+      fields:
+        supTitle:
+          label: Subtitle
+          $type: textField
+          i18n: true
+        title:
+          label: Title
+          $type: textField
+          i18n: true
+        text:
+          label: Text
+          $type: textField
+          i18n: true
+        topImage:
+          label: Top Image
+          $type: damLinkField
+        fullWidth:
+          label: ''
+          $type: checkBoxField
+          buttonLabel: Stretch section to full page width
+        gradient:
+          label: ''
+          $type: checkBoxField
+          buttonLabel: Use white color as background
+    secondTab:
+      label: CTA
+      fields:
+        cta: !include:/insurance-demo-lm/dialogs/includes/cta.yaml

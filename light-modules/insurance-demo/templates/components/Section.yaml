@@ -1,0 +1,8 @@
+title: Section
+dialog: insurance-demo:components/Section
+areas:
+    section:
+        title: Section Area
+        availableComponents:
+            carousel:
+                id: insurance-demo:components/Carousel
