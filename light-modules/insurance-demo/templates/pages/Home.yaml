@@ -9,4 +9,4 @@ areas:
         title: Main Area
         availableComponents:
             section:
-                id: insurance-demo:components/section
+                id: insurance-demo:components/Section
