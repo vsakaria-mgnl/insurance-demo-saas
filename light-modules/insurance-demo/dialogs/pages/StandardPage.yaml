@@ -1,7 +1,0 @@
-label: Standard Page
-form:
-    properties:
-        - name: title
-          label: Title
-          $type: textField
-          i18n: true
