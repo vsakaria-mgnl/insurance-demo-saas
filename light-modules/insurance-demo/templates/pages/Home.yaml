@@ -1,0 +1,12 @@
+baseUrl: http://localhost:3000
+class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
+dialog: insurance-demo:pages/Home
+renderType: spa
+routeTemplate: '/{{@path}}'
+title: Insurance Demo Saas - Home
+areas:
+    main:
+        title: Main Area
+        availableComponents:
+            section:
+                id: insurance-demo:components/section
