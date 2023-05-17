@@ -1,7 +1,18 @@
 label: Banner
 form:
-    $type: tabbedForm
-    tabs:
-        firstTab:
-            label: Main
-            fields: !include:/insurance-demo-lm/dialogs/includes/titleTextImage.yaml
+    properties:
+        supTitle:
+            label: Subtitle
+            $type: textField
+            i18n: true
+        title:
+            label: Title
+            $type: textField
+            i18n: true
+        text:
+            label: Text
+            $type: richTextField
+            i18n: true
+        image:
+            label: Image
+            $type: damLinkField
