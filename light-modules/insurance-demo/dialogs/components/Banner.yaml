@@ -1,11 +1,7 @@
 label: Banner
 form:
-  $type: tabbedForm
-  tabs:
-    firstTab:
-      label: Main
-      fields: !include:/insurance-demo-lm/dialogs/includes/titleTextImage.yaml
-    secondTab:
-      label: CTA
-      fields:
-        cta: !include:/insurance-demo-lm/dialogs/includes/cta.yaml
+    $type: tabbedForm
+    tabs:
+        firstTab:
+            label: Main
+            fields: !include:/insurance-demo-lm/dialogs/includes/titleTextImage.yaml
