@@ -11,7 +11,7 @@ form:
             i18n: true
         text:
             label: Text
-            $type: richTextField
+            $type: textField
             i18n: true
         image:
             label: Image
