@@ -6,3 +6,5 @@ areas:
         availableComponents:
             carousel:
                 id: insurance-demo:components/Carousel
+            textImage:
+                id: insurance-demo:components/TextImage

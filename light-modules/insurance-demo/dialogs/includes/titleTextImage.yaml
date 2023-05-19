@@ -1,16 +1,15 @@
 supTitle:
-  label: Subtitle
-  $type: textField
-  i18n: true
+    label: Subtitle
+    $type: textField
+    i18n: true
 title:
-  label: Title
-  $type: textField
-  i18n: true
+    label: Title
+    $type: textField
+    i18n: true
 text:
-  label: Text
-  $type: richTextField
-  configJsFile: /.resources/insurance-demo-lm/ckeditor/config-magnolia.js
-  i18n: true
+    label: Text
+    $type: richTextField
+    i18n: true
 image:
-  label: Image
-  $type: damLinkField
+    label: Image
+    $type: damLinkField
