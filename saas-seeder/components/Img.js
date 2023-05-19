@@ -7,11 +7,7 @@ function Img(props) {
 	return (
 		image && (
 			<>
-				<img
-					className={className}
-					src={'baseUrl' + image['@link']}
-					alt={caption}
-				/>
+				<img className={className} src={image['@link']} alt={caption} />
 				{withCaption && <div className="Img__caption">{caption}</div>}
 			</>
 		)
