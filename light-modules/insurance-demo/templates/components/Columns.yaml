@@ -1,7 +1,7 @@
 title: Columns
-dialog: insurance-demo:components/columns
+dialog: insurance-demo:components/Columns
 areas:
-    col1:
+    col1: &col
         title: Column 1
         availableComponents:
             card:
@@ -10,3 +10,13 @@ areas:
                 id: insurance-demo:components/Carousel
             textImage:
                 id: insurance-demo:components/TextImage
+
+    col2:
+        <<: *col
+        title: Column 2
+    col3:
+        <<: *col
+        title: Column 3
+    col4:
+        <<: *col
+        title: Column 4
