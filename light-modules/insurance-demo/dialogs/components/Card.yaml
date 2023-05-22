@@ -1,0 +1,12 @@
+label: Card
+form:
+    $type: tabbedForm
+    tabs:
+        firstTab:
+            label: Main
+            fields:
+                !include:/insurance-demo/dialogs/includes/titleTextImage.yaml
+                transparentBg:
+                    label: ''
+                    $type: checkBoxField
+                    buttonLabel: Transparent background

@@ -8,3 +8,5 @@ areas:
                 id: insurance-demo:components/Carousel
             textImage:
                 id: insurance-demo:components/TextImage
+            columns:
+                id: insurance-demo:components/Columns
