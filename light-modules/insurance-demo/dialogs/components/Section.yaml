@@ -13,7 +13,7 @@ form:
             label: Text
             $type: textField
             i18n: true
-        topImage:
+        image:
             label: Top Image
             $type: damLinkField
         fullWidth:
