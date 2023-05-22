@@ -12,3 +12,5 @@ areas:
                 id: insurance-demo:components/Columns
             card:
                 id: insurance-demo:components/Card
+            quote:
+                id: insurance-demo:components/Quote
