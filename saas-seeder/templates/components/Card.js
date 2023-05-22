@@ -29,7 +29,6 @@ function Card(props) {
 							dangerouslySetInnerHTML={{ __html: text }}
 						/>
 					)}
-					<CTA className="btn-blue" cta={cta} url={ctaUrl} />
 				</div>
 			</div>
 		</div>
