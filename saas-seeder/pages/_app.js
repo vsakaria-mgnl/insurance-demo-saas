@@ -1,6 +1,6 @@
-import '../styles/desktop.css';
 import '../styles/grid.css';
 import '../styles/globals.css';
+import '../styles/desktop.css';
 
 function MyApp({ Component, pageProps }) {
 	return (

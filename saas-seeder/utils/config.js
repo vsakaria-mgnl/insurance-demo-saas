@@ -5,6 +5,7 @@ import Banner from '../templates/components/Banner';
 import TextImage from '../templates/components/TextImage';
 import Card from '../templates/components/Card';
 import Columns from '../templates/components/Columns';
+import Quote from '../templates/components/Quote';
 
 export const config = {
 	componentMappings: {
@@ -15,5 +16,6 @@ export const config = {
 		'insurance-demo:components/TextImage': TextImage,
 		'insurance-demo:components/Card': Card,
 		'insurance-demo:components/Columns': Columns,
+		'insurance-demo:components/Quote': Quote,
 	},
 };
