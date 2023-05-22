@@ -5,11 +5,11 @@ areas:
         title: Column 1
         availableComponents:
             card:
-                id: insurance-demo:components/card
+                id: insurance-demo:components/Card
             carousel:
-                id: insurance-demo:components/carousel
+                id: insurance-demo:components/Carousel
             textImage:
-                id: insurance-demo:components/textImage
+                id: insurance-demo:components/TextImage
 
     col2:
         <<: *col
