@@ -14,3 +14,5 @@ areas:
                 id: insurance-demo:components/Card
             quote:
                 id: insurance-demo:components/Quote
+            map:
+                id: insurance-demo:components/Map
