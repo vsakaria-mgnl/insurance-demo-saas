@@ -9,4 +9,19 @@ const pagesApi = baseUrl + pagePath + spaRootNodePath + subIdQueryString;
 const templateAnnotationsApi =
 	baseUrl + annotionsPath + spaRootNodePath + subIdQueryString;
 
-export { baseUrl, spaRootNodePath, pagesApi, templateAnnotationsApi };
+const getPageUrl = (nodePath) => {
+	return baseUrl + pagePath + nodePath + subIdQueryString;
+};
+
+const getTemplatesUrl = (nodePath) => {
+	return baseUrl + annotionsPath + nodePath + subIdQueryString;
+};
+
+export {
+	baseUrl,
+	spaRootNodePath,
+	pagesApi,
+	templateAnnotationsApi,
+	getPageUrl,
+	getTemplatesUrl,
+};

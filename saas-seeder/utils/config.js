@@ -1,4 +1,5 @@
 import Home from '../templates/pages/Home';
+import Basic from '../templates/pages/Basic';
 import Section from '../templates/components/Section';
 import Carousel from '../templates/components/Carousel';
 import Banner from '../templates/components/Banner';
@@ -10,6 +11,8 @@ import Quote from '../templates/components/Quote';
 export const config = {
 	componentMappings: {
 		'insurance-demo:pages/Home': Home,
+		'insurance-demo:pages/Basic': Basic,
+
 		'insurance-demo:components/Section': Section,
 		'insurance-demo:components/Carousel': Carousel,
 		'insurance-demo:components/Banner': Banner,

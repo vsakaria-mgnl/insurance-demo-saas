@@ -1,23 +1,28 @@
 import { EditablePage, EditorContextHelper } from '@magnolia/react-editor';
-import { baseUrl, spaRootNodePath, languages, config } from '../utils/config';
+import { config } from '../utils/config';
 
-import { pagesApi, templateAnnotationsApi } from '../utils/api';
+import {
+	spaRootNodePath,
+	pagesApi,
+	templateAnnotationsApi,
+	getPageUrl,
+	getTemplatesUrl,
+} from '../utils/api';
 
 export async function getServerSideProps(context) {
 	const resolvedUrl = context.resolvedUrl;
 	const magnoliaContext = EditorContextHelper.getMagnoliaContext(
 		resolvedUrl,
-		spaRootNodePath,
-		languages
+		spaRootNodePath
 	);
 
 	const props = {};
 
 	let pageJson;
 
-	console.log('Pages', pagesApi);
-
-	const pagesRes = await fetch(pagesApi);
+	console.log('Pages MC', magnoliaContext.nodePath);
+	const pageUrl = getPageUrl(magnoliaContext.nodePath);
+	const pagesRes = await fetch(pageUrl);
 
 	pageJson = await pagesRes.json();
 
@@ -26,7 +31,8 @@ export async function getServerSideProps(context) {
 	let templateAnnotationsJson;
 
 	if (magnoliaContext.isMagnolia) {
-		const templateAnnotationsRes = await fetch(templateAnnotationsApi);
+		const templatesUrl = getTemplatesUrl(magnoliaContext.nodePath);
+		const templateAnnotationsRes = await fetch(templatesUrl);
 		templateAnnotationsJson = await templateAnnotationsRes.json();
 		props.templateAnnotations = templateAnnotationsJson;
 	}
@@ -39,7 +45,6 @@ export async function getServerSideProps(context) {
 	// Required by @magnolia/react-editor
 	global.mgnlInPageEditor = magnoliaContext.isMagnoliaEdit;
 
-	console.log('Temples', templateAnnotationsApi);
 	return { props };
 }
 
