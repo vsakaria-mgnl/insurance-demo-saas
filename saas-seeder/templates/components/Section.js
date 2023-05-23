@@ -10,7 +10,6 @@ function Section(props) {
 
 	if (gradient) sectionClassName += ' box';
 
-	console.log('Section props', props);
 	return (
 		<section className={sectionClassName}>
 			<div className={rowClassName}>

@@ -4,8 +4,6 @@ function Img(props) {
 	const { className, image, withCaption } = props;
 	const caption = image?.metadata?.caption || image?.metadata?.fileName;
 
-	console.log('Img', props);
-
 	return (
 		image && (
 			<>

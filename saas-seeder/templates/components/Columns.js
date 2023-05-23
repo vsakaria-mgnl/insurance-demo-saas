@@ -7,8 +7,6 @@ function Columns(props) {
 		'col-' +
 		12 / [showCol1, showCol2, showCol3, showCol4].filter(Boolean).length;
 
-	console.log(props);
-
 	return (
 		<div className="Columns">
 			<div className="row">
