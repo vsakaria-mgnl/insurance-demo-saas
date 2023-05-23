@@ -45,6 +45,8 @@ export async function getServerSideProps(context) {
 	// Required by @magnolia/react-editor
 	global.mgnlInPageEditor = magnoliaContext.isMagnoliaEdit;
 
+	console.log('I am here', pageUrl);
+
 	return { props };
 }
 
