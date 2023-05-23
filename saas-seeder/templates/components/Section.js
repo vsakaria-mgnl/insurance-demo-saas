@@ -3,16 +3,8 @@ import Img from '../../components/Img';
 import CTA from '../../components/CTA';
 
 function Section(props) {
-	const {
-		supTitle,
-		title,
-		text,
-		gradient,
-		section,
-		topImage,
-		cta,
-		fullWidth,
-	} = props;
+	const { supTitle, title, text, gradient, section, image, cta, fullWidth } =
+		props;
 	let sectionClassName = 'Section';
 	let rowClassName = fullWidth ? 'row-responsive' : 'row';
 
@@ -28,7 +20,7 @@ function Section(props) {
 						{title && <div className="title">{title}</div>}
 						{text && <div className="text">{text}</div>}
 					</div>
-					<Img className="Section__image" image={topImage} />
+					<Img className="Section__image" image={image} />
 					{section && <EditableArea content={section} />}
 				</div>
 			</div>
