@@ -1,0 +1,11 @@
+title: Insurance Demo - Basic
+dialog: insurance-demo:pages/Page
+$type: spa
+baseUrl: http://localhost:3000
+routeTemplate: '/{language}{{@path}}'
+areas:
+    main:
+        title: Main Area
+        availableComponents:
+            section:
+                id: insurance-demo:components/Section
