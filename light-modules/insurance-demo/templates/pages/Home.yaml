@@ -8,8 +8,8 @@ areas:
     header:
         title: Header Area
         availableComponents:
-            section:
-                id: insurance-demo:components/Section
+            pageLink:
+                id: insurance-demo:components/PageLink
     main:
         title: Main Area
         availableComponents:
