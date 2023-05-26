@@ -5,8 +5,13 @@ renderType: spa
 routeTemplate: '/{{@path}}'
 title: Insurance Demo Saas - Home
 areas:
-    maino:
-        title: Main Area
+    header:
+        title: Header Area
+        availableComponents:
+            pageLink:
+                id: insurance-demo:components/PageLink
+    main:
+        title: Main Area!!!
         availableComponents:
             section:
                 id: insurance-demo:components/Section

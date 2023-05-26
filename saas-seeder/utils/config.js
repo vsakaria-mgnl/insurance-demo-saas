@@ -13,6 +13,7 @@ import PageLink from '../templates/components/PageLink';
 export const config = {
 	componentMappings: {
 		'insurance-demo:pages/Home': Home,
+		'insurance-demo:pages/Test': Home,
 		'insurance-demo:pages/Basic': Basic,
 
 		'insurance-demo:components/Section': Section,
