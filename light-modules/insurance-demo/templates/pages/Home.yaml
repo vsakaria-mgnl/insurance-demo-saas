@@ -11,7 +11,7 @@ areas:
             pageLink:
                 id: insurance-demo:components/PageLink
     main:
-        title: Main Area
+        title: Main Area!!!
         availableComponents:
             section:
                 id: insurance-demo:components/Section
