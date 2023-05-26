@@ -10,7 +10,7 @@ areas:
         availableComponents:
             pageLink:
                 id: insurance-demo:components/PageLink
-    main:
+    maintest:
         title: Main Area!!!
         availableComponents:
             section:
