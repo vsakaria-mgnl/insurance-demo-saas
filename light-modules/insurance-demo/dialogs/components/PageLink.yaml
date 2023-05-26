@@ -1,0 +1,18 @@
+label: Page Link
+form:
+    properties:
+        pageLink:
+            label: Page Link
+            $type: pageLinkField
+        label:
+            label: Label
+            $type: textField
+            i18n: true
+        isButton:
+            label: Button
+            $type: checkBoxField
+            buttonLabel: Select to display as a button
+        loggedInLabel:
+            label: Logged in Label
+            $type: textField
+            i18n: true

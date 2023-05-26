@@ -8,6 +8,7 @@ import Card from '../templates/components/Card';
 import Columns from '../templates/components/Columns';
 import Quote from '../templates/components/Quote';
 import Map from '../templates/components/Map';
+import PageLink from '../templates/components/PageLink';
 
 export const config = {
 	componentMappings: {
@@ -22,5 +23,6 @@ export const config = {
 		'insurance-demo:components/Columns': Columns,
 		'insurance-demo:components/Quote': Quote,
 		'insurance-demo:components/Map': Map,
+		'insurance-demo:components/PageLink': PageLink,
 	},
 };
