@@ -25,6 +25,7 @@ export default function Home(props: any) {
 
 	return (
 		<>
+			<h1>I am </h1>
 			<main style={{ backgroundImage: 'url(' + url + ')' }}>
 				{header && (
 					<EditableArea
