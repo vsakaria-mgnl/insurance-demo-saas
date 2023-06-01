@@ -9,11 +9,11 @@ function renderHomeHeader(content: any) {
 	return (
 		<div className="header">
 			Header
-			{content['@nodes'].map((nodeName: any) => (
+			{/* {content['@nodes'].map((nodeName: any) => (
 				<div key={content[nodeName]['@id']}>
 					<EditableComponent content={{ ...content[nodeName] }} />
 				</div>
-			))}
+			))} */}
 		</div>
 	);
 }
