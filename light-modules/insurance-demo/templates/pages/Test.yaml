@@ -1,6 +1,6 @@
 baseUrl: http://localhost:3000
 class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
-dialog: insurance-demo:pages/Home
+dialog: insurance-demo:pages/Test
 renderType: spa
 routeTemplate: '/{{@path}}'
 title: Insurance Demo Saas - TEst

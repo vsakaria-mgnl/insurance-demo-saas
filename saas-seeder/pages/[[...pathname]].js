@@ -35,6 +35,7 @@ export async function getServerSideProps(context) {
 		const templateAnnotationsRes = await fetch(templatesUrl);
 		templateAnnotationsJson = await templateAnnotationsRes.json();
 		props.templateAnnotations = templateAnnotationsJson;
+		console.log('TEmp, templatesUrl', templatesUrl);
 	}
 
 	props.urls = {
@@ -45,7 +46,7 @@ export async function getServerSideProps(context) {
 	// Required by @magnolia/react-editor
 	global.mgnlInPageEditor = magnoliaContext.isMagnoliaEdit;
 
-	console.log('I am here', pageUrl);
+	// console.log('I am here', pageUrl);
 
 	return { props };
 }
