@@ -3,7 +3,7 @@ form:
     properties:
         pageLink:
             label: Page Link
-            $type: pageLinkField
+            $type: textField
         label:
             label: Label
             $type: textField

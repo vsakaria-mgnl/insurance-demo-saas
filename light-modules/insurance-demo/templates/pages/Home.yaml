@@ -12,7 +12,7 @@ areas:
         dialog: insurance-demo:areas/Header
         availableComponents:
             pageLink:
-                id: insurance-demo:components/PageLink
+                id: insurance-demo:components/Link
     main:
         title: Main Area
         availableComponents:

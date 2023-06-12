@@ -9,15 +9,11 @@ function renderHomeHeader({ content }: any) {
 export default function Home(props: any) {
 	const { main, header } = props;
 
+	console.log('props', props);
 	return (
 		<>
 			<main>
-				{header && (
-					<EditableArea
-						content={header}
-						customView={renderHomeHeader}
-					/>
-				)}
+				{header && <EditableArea content={header} />}
 
 				{main && <EditableArea content={main} />}
 			</main>

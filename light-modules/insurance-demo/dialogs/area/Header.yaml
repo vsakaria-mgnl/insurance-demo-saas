@@ -6,4 +6,4 @@ form:
             $type: damLinkField
         pageLink:
             label: Page Link
-            $type: pageLinkField
+            $type: textField
