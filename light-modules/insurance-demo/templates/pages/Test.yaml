@@ -3,7 +3,7 @@ class: info.magnolia.rendering.spa.renderer.SpaRenderableDefinition
 dialog: insurance-demo:pages/Test
 renderType: spa
 routeTemplate: '/{{@path}}'
-title: Insurance Demo Saas - TEst
+title: Insurance Demo Saas - Test
 areas:
     header:
         title: Header Area
