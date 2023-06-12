@@ -9,9 +9,10 @@ title: Insurance Demo Saas - Home
 areas:
     header:
         title: Header Area
+        dialog: insurance-demo:areas/Header
         availableComponents:
-            section:
-                id: insurance-demo:components/Section
+            pageLink:
+                id: insurance-demo:components/PageLink
     main:
         title: Main Area
         availableComponents:

@@ -12,7 +12,3 @@ form:
             label: Button
             $type: checkBoxField
             buttonLabel: Select to display as a button
-        loggedInLabel:
-            label: Logged in Label
-            $type: textField
-            i18n: true
