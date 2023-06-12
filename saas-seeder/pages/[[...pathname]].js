@@ -20,9 +20,10 @@ export async function getServerSideProps(context) {
 
 	let pageJson;
 
-	console.log('Pages MC', magnoliaContext.nodePath);
 	const pageUrl = getPageUrl(magnoliaContext.nodePath);
 	const pagesRes = await fetch(pageUrl);
+
+	console.log('I am here', pageUrl);
 
 	pageJson = await pagesRes.json();
 
