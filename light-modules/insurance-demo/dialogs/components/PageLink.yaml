@@ -7,8 +7,3 @@ form:
         label:
             label: Label
             $type: textField
-            i18n: true
-        isButton:
-            label: Button
-            $type: checkBoxField
-            buttonLabel: Select to display as a button
