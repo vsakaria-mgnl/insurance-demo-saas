@@ -7,7 +7,7 @@ function renderHomeHeader({ content }: any) {
 }
 
 export default function Home(props: any) {
-	const { main, header } = props;
+	const { main, header, footer } = props;
 
 	console.log('props', props);
 	return (
@@ -16,6 +16,8 @@ export default function Home(props: any) {
 				{header && <EditableArea content={header} />}
 
 				{main && <EditableArea content={main} />}
+
+				{footer && <EditableArea content={footer} />}
 			</main>
 		</>
 	);

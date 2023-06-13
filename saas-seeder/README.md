@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Saas seeder project
 
-## Getting Started
+This base project has all the configurations to get you up and running on Magnolia Saas and Next JS fast!
 
-First, run the development server:
+It's basically a skelton which allows you to develop your own app on.
+There are two things you need to configure to get up and running.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Set you subscription ID in a environment file.
+2. Set the BaseURL of the project.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Subscription** **ID**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Subscription ID is found on you instance of Magnolia Saas. Here is a link to help you find it. [Find my SubId.](https://docs.magnolia-cms.com/saas/faqs.html#_managing_your_subscription)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Once you have it paste to into the .env file as a value for the property `NEXT_APP_MGNL_SUB_ID.`
 
-## Learn More
+Something like this:
 
-To learn more about Next.js, take a look at the following resources:
+    NEXT_APP_MGNL_SUB_ID="lo2bbw********"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**BaseURL**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Now the BaseUrl this is based on the parent page you create in Magnolia. Here is an example of how to do this. [Make a parent page.](https://docs.magnolia-cms.com/saas/hello-saas/edit-react-app.html)
 
-## Deploy on Vercel
+You'll select Standard Page as your template but of course you can change this as you add more pages and templates.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+What ever is the _slug_ for your named page is what you paste into as you Base Url, you can see this in the as you type the page name.
+Once you have it paste to into the .env file as a value for the property `NEXT_APP_MGNL_APP_BASE`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Something like this:
+
+    NEXT_APP_MGNL_APP_BASE=/my-first-page
+
+That's it you should be able to follow the normal instructions and start developing!
+
+Good luck.

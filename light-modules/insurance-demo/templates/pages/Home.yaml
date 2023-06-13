@@ -18,3 +18,8 @@ areas:
         availableComponents:
             section:
                 id: insurance-demo:components/Section
+    footer:
+        title: Footer Area
+        availableComponents:
+            section:
+                id: insurance-demo:components/Section
